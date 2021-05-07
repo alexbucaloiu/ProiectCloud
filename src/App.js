@@ -1,7 +1,7 @@
 import "./App.css";
-import Amplify from "aws-amplify";
-import awsconfig from "./aws-exports";
-import { AmplifySignOut, withAuthenticator } from "@aws-amplify/ui-react";
+// import Amplify from "aws-amplify";
+// import awsconfig from "./aws-exports";
+// import { AmplifySignOut, withAuthenticator } from "@aws-amplify/ui-react";
 import Weather from "./app_components/weather.components";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "weather-icons/css/weather-icons.css";
@@ -10,7 +10,7 @@ import React from "react";
 
 const Api_Key = "e5696731b8297b53f193745d683a4d40";
 
-Amplify.configure(awsconfig);
+// Amplify.configure(awsconfig);
 
 class App extends React.Component {
   constructor() {
@@ -126,4 +126,5 @@ class App extends React.Component {
   }
 }
 
-export default withAuthenticator(App);
+// export default withAuthenticator(App);
+export default  App;

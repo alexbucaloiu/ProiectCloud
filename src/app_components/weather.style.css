@@ -4,7 +4,7 @@
 
 .container input,
 .container ::-webkit-input-placeholder {
-  color: white !important;
+  color: black !important;
 }
 .container input:focus {
   background-color: transparent;
